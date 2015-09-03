@@ -1,25 +1,65 @@
+/*fonts*/
+@font-face {
+    font-family: AllerBold;
+    src: url('../fonts/Aller_Bd.ttf');
+}
+@font-face {
+    font-family: Aller;
+    src: url('../fonts/Aller_Rg.ttf');
+}
+@font-face {
+    font-family: AllerItalic;
+    src: url('../fonts/Aller_It.ttf');
+}
+@font-face {
+    font-family: AllerLight;
+    src: url('../fonts/Aller_Lt.ttf');
+}
+.AllerBig{
+    font-family: Aller;
+    font-size: 18px;
+}
+.AllerLight{
+    font-family: AllerLight;
+    font-size: 25px;
+    color: #242424;
+}
+.AllerMedium{
+    font-family: Aller;
+    font-size: 16px;
+}
+.aller {
+    font-family: Aller;
+    font-size: 12px;
+}
+.allerItalic {
+    font-family: AllerItalic;
+    font-size: 12px;
+}
+/*/fonts*/
 .container{
 width: 67%;
 }
 /*header*/
 .headerBlock{
-    background-color: black;
+    background-color: #242424;
     height: 45px;
 }
 .noColor{
-    background-color: black;
+    background-color: transparent;
     text-align: center;
     border: none;
     padding-right: 0px;
     width: 100%;
 }
-.menu{
+.menuBlock{
     background-color: peachpuff;
-    height: 65px;
+    height: 60px;
 }
 .headerFont{
-    font-size: 13px;
-    color: gray;
+    font-size: 14px;
+    font-family: Aller;
+    color: #7e7e7e;
     padding-top: 10px;
     border-right: 1px solid gray;
     height: 100%;
@@ -32,12 +72,12 @@ width: 67%;
     height: 45px;
 }
 h1{
-    font-size: 30px;
-    color: #1b6d85;
+    font-size: 26px;
+    font-family: Aller;
+    color: #57c5a0;
     margin: 0px;
     padding: 5px 0px 0px 0px;
 }
-
 
 @media (max-width: 768px) {
     .headerBlock{
@@ -45,9 +85,6 @@ h1{
     }
     .headerFont{
         border: none;
-    }
-    .menu table tr td{
-        width: 100%;
     }
 }
 @media (max-width: 450px) {
@@ -66,58 +103,96 @@ h1{
         height: 0;
     }
 }
-
-.menu table tr td{
-    border: 1px solid gray;
+.navbar-default .navbar-nav > li > a{
+    color: #242424;
 }
-.menu table{
-    width: 100%;
-    text-align: center;
-    height: 65px;
-    padding-top: 20px;
-}
-.navbar-nav > li {
+.navbar-nav > li > a{
     border-right: 1px solid lightgrey;
 }
 .leftBorder {
     border-left: 1px solid lightgrey;
 }
 .maxHeight{
-    width: 120px;
-    height: 52px;
+    height: 60px;
+}
+@media (min-width: 768px){
+    .navbar{
+        border-radius: 0px;
+        height: 60px;
+        background-color: transparent;
+    }
 }
 /*/header*/
 
 /*content*/
 
+.columnPadding{
+    padding: 30px 0px 30px 0px;
+}
+.botPadding{
+    padding-bottom: 50px;
+}
+.maxWidth{
+    width: 100%;
+}
+.whiteColor{
+    text-align: center;
+    color: #ffffff;
+}
+.picturesPaddings{
+    padding: 25px 0px 25px 0px;
+}
+.topBackground{
+    height: 185px;
+    font-family: AllerBold;
+    font-size: 14px;
+   background-color: #dfdbd4;
+    padding: 35px 15px 0px 15px;
+}
+.greyColor{
+    text-align: center;
+    color: #848484;
+}
+.newsBlock{
+    background-color: #ebe7df;
+    height: 235px;
+}
 .imageBlock{
-    background-color: whitesmoke;
-    height: 400px;
+    background-color: #edece7;
+    height: 460px;
+}
+.pictureProperty{
+    height: 100%;
+    width: 50%;
 }
 .shoesCategory{
-    background-color: lightslategray;
+    background-color: #2e2e2e;
     height: 60px;
 }
 .shoesCategory table{
     height: 60px;
 }
 .threeImagesBlock{
-    background-color: black;
-    height: 250px;
+    background-color: #242424;
+    height: 230px;
 }
-.shoesPull{
-    background-color: whitesmoke;
-    height: 500px;
+.shoesPullBlock {
+    background-color: #ebe7df;
+    height: 1000px;
 }
 /*/content*/
 
 /*footer*/
 .feedbackBlock{
-    background-color: black;
+    background-color: #242424;
     height: 150px;
 }
 .copyrightBlock{
-    background-color: darkgrey;
-    height: 80px;
+    background-color: #2e2e2e;
+    height: 90px;
+}
+.copyrightFontColor{
+    padding-top:30px;
+    color: #9f9f9f;
 }
 /*/footer*/
