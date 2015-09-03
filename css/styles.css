@@ -1,0 +1,123 @@
+.container{
+width: 67%;
+}
+/*header*/
+.headerBlock{
+    background-color: black;
+    height: 45px;
+}
+.noColor{
+    background-color: black;
+    text-align: center;
+    border: none;
+    padding-right: 0px;
+    width: 100%;
+}
+.menu{
+    background-color: peachpuff;
+    height: 65px;
+}
+.headerFont{
+    font-size: 13px;
+    color: gray;
+    padding-top: 10px;
+    border-right: 1px solid gray;
+    height: 100%;
+    text-align: center;
+}
+.rightAlign{
+    text-align: right;
+}
+.rowMaxHeight{
+    height: 45px;
+}
+h1{
+    font-size: 30px;
+    color: #1b6d85;
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+}
+
+
+@media (max-width: 768px) {
+    .headerBlock{
+        height: 90px;
+    }
+    .headerFont{
+        border: none;
+    }
+    .menu table tr td{
+        width: 100%;
+    }
+}
+@media (max-width: 450px) {
+    h1{
+        font-size: 20px;
+    }
+    .headerFont{
+        font-size: 10px;
+    }
+    .headerBlock{
+        height: 60px;
+    }
+    .headerFont{
+        margin-top: 10px;
+        padding: 0;
+        height: 0;
+    }
+}
+
+.menu table tr td{
+    border: 1px solid gray;
+}
+.menu table{
+    width: 100%;
+    text-align: center;
+    height: 65px;
+    padding-top: 20px;
+}
+.navbar-nav > li {
+    border-right: 1px solid lightgrey;
+}
+.leftBorder {
+    border-left: 1px solid lightgrey;
+}
+.maxHeight{
+    width: 120px;
+    height: 52px;
+}
+/*/header*/
+
+/*content*/
+
+.imageBlock{
+    background-color: whitesmoke;
+    height: 400px;
+}
+.shoesCategory{
+    background-color: lightslategray;
+    height: 60px;
+}
+.shoesCategory table{
+    height: 60px;
+}
+.threeImagesBlock{
+    background-color: black;
+    height: 250px;
+}
+.shoesPull{
+    background-color: whitesmoke;
+    height: 500px;
+}
+/*/content*/
+
+/*footer*/
+.feedbackBlock{
+    background-color: black;
+    height: 150px;
+}
+.copyrightBlock{
+    background-color: darkgrey;
+    height: 80px;
+}
+/*/footer*/
