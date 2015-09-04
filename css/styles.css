@@ -12,8 +12,19 @@
     src: url('../fonts/Aller_It.ttf');
 }
 @font-face {
+    font-family: AllerBdIt;
+    src: url('../fonts/Aller_BdIt.ttf');
+}
+@font-face {
     font-family: AllerLight;
     src: url('../fonts/Aller_Lt.ttf');
+}
+.AllerDbIt{
+    font-family: AllerBdIt;
+}
+.AllerBold{
+    font-family: AllerBold;
+    color: #656565;
 }
 .AllerBig{
     font-family: Aller;
@@ -183,9 +194,27 @@ h1{
 /*/content*/
 
 /*footer*/
+
+.feedbackFontColor{
+    color: #bcbdb7;
+}
+.feedbackDarkFontColor{
+    color: #909090;
+}
+.feedbackBlock p{
+    font-size: 12px;
+    font-family: AllerBdIt;
+}
 .feedbackBlock{
     background-color: #242424;
-    height: 150px;
+    height: 250px;
+    border-bottom: 1px solid #1c1c1c;
+}
+.feedbackBlock table tr td{
+    padding: 8px 8px 0px 0px;
+}
+.feedbackPadding{
+    padding: 8px 8px 0px 0px;
 }
 .copyrightBlock{
     background-color: #2e2e2e;
