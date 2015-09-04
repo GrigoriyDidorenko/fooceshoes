@@ -76,6 +76,9 @@ width: 67%;
     height: 100%;
     text-align: center;
 }
+.additionalPadding{
+    padding-top: 5px;
+}
 .rightAlign{
     text-align: right;
 }
@@ -138,10 +141,11 @@ h1{
 /*content*/
 
 .columnPadding{
-    padding: 30px 0px 30px 0px;
+    padding: 20px 0px 20px 0px;
 }
 .botPadding{
-    padding-bottom: 50px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #bcb5a7;
 }
 .maxWidth{
     width: 100%;
@@ -152,6 +156,9 @@ h1{
 }
 .picturesPaddings{
     padding: 25px 0px 25px 0px;
+}
+.paddingTop{
+    padding-top: 30px;
 }
 .topBackground{
     height: 185px;
@@ -194,11 +201,14 @@ h1{
 /*/content*/
 
 /*footer*/
-
+.nickColor{
+    color: #4ead8d;
+}
 .feedbackFontColor{
     color: #bcbdb7;
 }
 .feedbackDarkFontColor{
+    text-align: justify;
     color: #909090;
 }
 .feedbackBlock p{
@@ -214,13 +224,34 @@ h1{
     padding: 8px 8px 0px 0px;
 }
 .feedbackPadding{
-    padding: 8px 8px 0px 0px;
+    padding: 40px 15px 0px 30px;
+}
+.paddingLeft{
+    padding-left: 5px;
+}
+.socialBlock{
+    height: 120px;
+    background-color: #242424;
+}
+
+.searchField{
+    height: 35px;
+    background-color: #2e2e2e;
+    color: #626262;
+    border: none;
+    font-family: AllerItalic;
+    font-size: 12px;
+    width: 100%;
 }
 .copyrightBlock{
     background-color: #2e2e2e;
     height: 90px;
 }
 .copyrightFontColor{
+    padding-top:36px;
+    color: #9f9f9f;
+}
+.copyrightFontColor a{
     padding-top:30px;
     color: #9f9f9f;
 }
