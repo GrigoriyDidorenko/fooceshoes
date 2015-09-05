@@ -92,6 +92,14 @@ h1{
     margin: 0px;
     padding: 5px 0px 0px 0px;
 }
+h5{
+    margin: 0px;
+}
+h4{
+    margin: 0px 0px 15px 0px;
+    font-family: AllerBold;
+    font-size: 14px;
+}
 
 @media (max-width: 768px) {
     .headerBlock{
@@ -160,12 +168,43 @@ h1{
 .paddingTop{
     padding-top: 30px;
 }
+.priceDateBackground{
+    float: left;
+    background-color: #57c5a0;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+.dateFont{
+    padding-top: 20%;
+    font-family: AllerBold;
+    font-size: 10px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 110%;
+}
+.fontSize{
+    font-size: 13px;
+}
 .topBackground{
     height: 185px;
     font-family: AllerBold;
     font-size: 14px;
    background-color: #dfdbd4;
     padding: 35px 15px 0px 15px;
+}
+.buttonStyle{
+    background-color: transparent;
+    border: 2px solid #bcb5a7;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.buttonStyle span{
+
+    color: #bcb5a7;
+    font-family: AllerBold;
+    font-size: 14px;
 }
 .greyColor{
     text-align: center;
@@ -197,6 +236,9 @@ h1{
 .shoesPullBlock {
     background-color: #ebe7df;
     height: 1000px;
+}
+.whiteBackground{
+    background-color: #ffffff;
 }
 /*/content*/
 
@@ -233,7 +275,9 @@ h1{
     height: 120px;
     background-color: #242424;
 }
-
+.glyphicon-chevron-right{
+ background-color: #7d7d7d;
+}
 .searchField{
     height: 35px;
     background-color: #2e2e2e;
@@ -241,7 +285,7 @@ h1{
     border: none;
     font-family: AllerItalic;
     font-size: 12px;
-    width: 100%;
+    width: 90%;
 }
 .copyrightBlock{
     background-color: #2e2e2e;
