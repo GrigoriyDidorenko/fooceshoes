@@ -240,11 +240,37 @@ h4{
 .whiteBackground{
     background-color: #ffffff;
 }
+.backgroundOnSale{
+    background: url('../images/on_sale.jpg');
+}
+.imagePositioning{
+    height: 30%;
+    width: 65%;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    opacity: 0;
+    background-color: #393939;
+}
+.imagePositioning:hover{
+    opacity: 0.95;
+}
+.textStyle{
+    padding-top: 6%;
+    color: #ffffff;
+    text-align: center;
+    font-family: AllerLight;
+    font-size: 25px;
+}
 /*/content*/
 
 /*footer*/
 .nickColor{
     color: #4ead8d;
+}
+.thumbnail{
+    padding: 0;
+    border: none;
 }
 .feedbackFontColor{
     color: #bcbdb7;
