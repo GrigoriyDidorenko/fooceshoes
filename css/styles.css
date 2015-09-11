@@ -123,7 +123,7 @@ h4{
     font-size: 14px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 860px) {
     .headerBlock{
         height: 90px;
     }
@@ -180,6 +180,11 @@ h4{
     font-size: 18px;
     color: #777777;
 
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+    .navbar-right{
+        display: none;
+    }
 }
 /*@media (min-width: 1024px) {
     .navbar-toggle {
