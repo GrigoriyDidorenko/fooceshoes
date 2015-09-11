@@ -123,7 +123,7 @@ h4{
     font-size: 14px;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 992px) {
     .headerBlock{
         height: 90px;
     }
@@ -179,12 +179,10 @@ h4{
 .glyphicon{
     font-size: 18px;
     color: #777777;
-
 }
-@media (min-width: 768px) and (max-width: 1000px) {
-    .navbar-right{
-        display: none;
-    }
+.glyphicon:hover{
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
 }
 /*@media (min-width: 1024px) {
     .navbar-toggle {
@@ -278,8 +276,8 @@ color: #242424;
 .mainDiv{
     background-color: transparent;
     position: absolute;
-    margin-top: -320px;
     left: 50%;
+    margin-top: -360px;
     height: 300px;
     width: 390px;
 }
@@ -336,13 +334,12 @@ color: #242424;
     background-color: #ebe7df;
 }
 .imageBlock{
-    min-height: 350px;
+    height: 460px;
    /* background-image: url("../images/main1.jpg");*/
 }
 .pictureProperty{
-    height: auto;
+    height: 100%;
     width: 100%;
-    min-height: 350px;
 }
 .shoesCategory{
     background-color: #2e2e2e;
@@ -387,12 +384,12 @@ color: #242424;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-@media (max-width: 1280px) and (min-width: 860px){
+@media (max-width: 992px) and (min-width: 768px){
     h2{
         font-size: 32px;
     }
 }
-@media (max-width: 860px){
+@media (max-width: 768px){
     h2{
         font-size: 24px;
     }
@@ -407,13 +404,32 @@ color: #242424;
 /*.imagePositioning:hover{
     background: rgba(0, 0, 0, 0.61);
 }*/
+@media (max-width: 768px) {
+    .textStyle{
+        font-size: 18px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+@media (max-width: 518px) {
+    .textStyle{
+        font-size: 12px;
+    }
+}
+@media (min-width: 768px){
+    .textStyle{
+        font-size: 25px;
+    }
+}
 .textStyle{
+    position: relative;
+    top: -120px;
     padding: 15px 30px;
     background: rgba(36, 36, 36, 0.85);
     color: #ffffff;
     font-family: AllerLight;
     text-align: center;
-    font-size: 25px;
+
     transition: all 0.3s ease-in-out;
 }
 .threeImagesBlock a{
@@ -426,6 +442,11 @@ color: #242424;
 .underImage{
     border-top: 1px solid #cccccc;
     background-color: #ffffff;
+}
+@media (max-width: 768px) {
+    .priceBackground{
+        margin-bottom: 0;
+    }
 }
 .priceBackground{
     position: absolute;
@@ -457,8 +478,13 @@ color: #242424;
 /*/content*/
 
 /*footer*/
-.nickColor{
+.feedbackBlock a{
     color: #4ead8d;
+}
+.feedbackBlock a:hover{
+    text-decoration: none;
+    color: #909090;
+    transition: all 0.3s ease-in-out;
 }
 .transparentBackground{
     background-color: transparent;
@@ -488,7 +514,11 @@ color: #242424;
 }
 .feedbackPadding{
     font-size: 0px;
+    margin-bottom: 20px;
     padding: 40px 15px 0px 30px;
+}
+.socialBlock .feedbackPadding{
+    padding-top: 0;
 }
 .socialBlock .feedbackPadding{
     padding-bottom: 20px;
@@ -514,6 +544,7 @@ color: #242424;
 }
 .socialBlock{
     background-color: #242424;
+    padding-top: 20px;
 }
 .glyphicon-chevron-right{
  background-color: #7d7d7d;
@@ -550,6 +581,19 @@ color: #242424;
 }
 .shoesPullBlock .fontColor:hover{
 color: #57c5a0;
+    transition: all 0.3s ease-in-out;
+}
+@media (max-width: 992px){
+    .copyrightBlock p{
+       text-align: center;
+    }
+}
+.copyrightBlock p{
+    padding-top: 10px;
+}
+.copyrightBlock a:hover{
+    text-decoration: none;
+    color: #57c5a0;
     transition: all 0.3s ease-in-out;
 }
 .copyrightBlock{
