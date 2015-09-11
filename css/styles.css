@@ -64,8 +64,13 @@ width: 67%;
     width: 100%;
 }
 .menuBlock{
-    background-color: peachpuff;
-    height: 60px;
+    background-color: #ffffff;
+    height: 50px;
+}
+.navbar-right{
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    height: 50px;
 }
 .headerFont{
     font-size: 14px;
@@ -80,10 +85,22 @@ width: 67%;
     padding-top: 5px;
 }
 .rightAlign{
-    text-align: right;
+ text-align: right;
+}
+.rightFloat{
+    float: right;
+}
+.leftFloat {
+    float: left;
 }
 .rowMaxHeight{
     height: 45px;
+}
+.priceFont{
+    font-family: AllerBold;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
 }
 h1{
     font-size: 26px;
@@ -91,6 +108,11 @@ h1{
     color: #57c5a0;
     margin: 0px;
     padding: 5px 0px 0px 0px;
+}
+h2{
+    font-family: AllerLight;
+    font-size: 40px;
+    margin: 15px 0 5px 0;
 }
 h5{
     margin: 0px;
@@ -128,14 +150,21 @@ h4{
 .navbar-default .navbar-nav > li > a{
     color: #242424;
 }
+.navbar-default{
+    border: none;
+}
 .navbar-nav > li > a{
-    border-right: 1px solid lightgrey;
+    border-right: 1px solid #eeeeee;
 }
 .leftBorder {
-    border-left: 1px solid lightgrey;
+    border-left: 1px solid #eeeeee;
 }
-.maxHeight{
-    height: 60px;
+.rightBorder{
+    border-right: 1px solid #cccccc;
+    height: 50px;
+}
+.leftBorderBold {
+    border-left: 1px solid #cccccc;
 }
 @media (min-width: 768px){
     .navbar{
@@ -144,16 +173,77 @@ h4{
         background-color: transparent;
     }
 }
+.autoWidth{
+    width: auto;
+}
+.glyphicon{
+    font-size: 18px;
+    color: #777777;
+
+}
+.glyphicon-chevron-right{
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 5px;
+    top: 0;
+    height: 30px;
+    width: 35px;
+    text-align: center;
+    color: #080808;
+}
+
+.backgroundGray{
+    margin-left: 5px;
+    border-radius: 4px;
+    padding-left: 2px;
+    height: 20px;
+    width: 20px;
+    font-family: AllerBold;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #adadad;
+}
+.backgroundGreen{
+    background-color: #57c5a0;
+    margin-left: 5px;
+    border-radius: 4px;
+    padding-left: 5px;
+    height: 20px;
+    width: 20px;
+    font-family: AllerBold;
+    font-size: 12px;
+    color: #ffffff;
+}
 /*/header*/
 
 /*content*/
+.floatLeft{
+    float: left;
+}
+.imageBlockText{
+    font-family: AllerLight;
+    font-size: 20px;
+}
+.fontColor{
+color: #242424;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
 
+}
 .columnPadding{
     padding: 20px 0px 20px 0px;
+}
+.threeImagesBlock .botPadding{
+    padding-bottom: 10px;
+    border: none;
 }
 .botPadding{
     padding-bottom: 45px;
     border-bottom: 1px solid #bcb5a7;
+}
+.imageBlock .maxWidth{
+    height: 60px;
 }
 .maxWidth{
     width: 100%;
@@ -165,8 +255,23 @@ h4{
 .picturesPaddings{
     padding: 25px 0px 25px 0px;
 }
+.imageBlock .paddingTop{
+    padding-top: 35%;
+}
 .paddingTop{
     padding-top: 30px;
+}
+.imageBlock .priceDateBackground{
+    height: 65px;
+    width: 65px;
+}
+.mainDiv{
+    background-color: transparent;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 300px;
+    width: 390px;
 }
 .priceDateBackground{
     float: left;
@@ -187,7 +292,6 @@ h4{
     font-size: 13px;
 }
 .topBackground{
-    height: 185px;
     font-family: AllerBold;
     font-size: 14px;
    background-color: #dfdbd4;
@@ -200,8 +304,15 @@ h4{
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.buttonStyle span{
-
+.buttonStyle:hover{
+    background-color:#BCB4A7;
+    color: #ffffff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.buttonText{
     color: #bcb5a7;
     font-family: AllerBold;
     font-size: 14px;
@@ -212,30 +323,31 @@ h4{
 }
 .newsBlock{
     background-color: #ebe7df;
-    height: 235px;
 }
 .imageBlock{
-    background-color: #edece7;
-    height: 460px;
+   /* background-image: url("../images/main1.jpg");*/
 }
 .pictureProperty{
-    height: 100%;
-    width: 50%;
+    height: auto;
+    width: 100%;
 }
 .shoesCategory{
     background-color: #2e2e2e;
-    height: 60px;
 }
 .shoesCategory table{
     height: 60px;
 }
+.threeImagesBlock .thumbnail{
+    background-color: transparent;
+}
+.autoOverflow{
+    overflow: auto;
+}
 .threeImagesBlock{
     background-color: #242424;
-    height: 230px;
 }
 .shoesPullBlock {
     background-color: #ebe7df;
-    height: 1000px;
 }
 .whiteBackground{
     background-color: #ffffff;
@@ -243,24 +355,83 @@ h4{
 .backgroundOnSale{
     background: url('../images/on_sale.jpg');
 }
-.imagePositioning{
+/*.imagePositioning{
     height: 30%;
     width: 65%;
     position: absolute;
     top: 35%;
     left: 20%;
-    opacity: 0;
-    background-color: #393939;
+    background: rgba(36, 36, 36, 0.85);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}*/
+.navbar-right > li > a:hover{
+    opacity: 0.6;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
-.imagePositioning:hover{
-    opacity: 0.95;
+.navbar-default .navbar-nav > li > a:hover{
+    color: #57c5a0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
+/*.imagePositioning:hover{
+    background: rgba(0, 0, 0, 0.61);
+}*/
 .textStyle{
+    position: relative;
+    top: -120px;
+    padding: 15px 30px;
+    background: rgba(36, 36, 36, 0.85);
+    color: #ffffff;
+    font-family: AllerLight;
+    text-align: center;
+    font-size: 25px;
+    transition: all 0.3s ease-in-out;
+}
+.threeImagesBlock a{
+    text-decoration: none;
+}
+.textStyle:hover{
+    background: rgba(0, 0, 0, 0.61);
+    transition: all 0.3s ease-in-out;
+}
+.underImage{
+    border-top: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+.priceBackground{
+    position: absolute;
+    bottom: 0;
+    height: 25%;
+    width: 20%;
+    left: 8%;
+    background-color: #57c5a0;
+    padding-top: 9%;
+    font-size: 13px;
+    color: #ffffff;
+    padding-left: 2%;
+}
+.smallPadding{
+    padding-left: 10%;
+}
+.outOfStock{
+    position: absolute;
+    top: 0;
+    height: 25%;
+    width: 20%;
+    right: 8%;
+    background-color: #f27e4b;
     padding-top: 6%;
+    font-size: 13px;
     color: #ffffff;
     text-align: center;
-    font-family: AllerLight;
-    font-size: 25px;
 }
 /*/content*/
 
@@ -268,8 +439,12 @@ h4{
 .nickColor{
     color: #4ead8d;
 }
+.transparentBackground{
+    background-color: transparent;
+}
 .thumbnail{
     padding: 0;
+    margin: 0;
     border: none;
 }
 .feedbackFontColor{
@@ -285,37 +460,79 @@ h4{
 }
 .feedbackBlock{
     background-color: #242424;
-    height: 250px;
     border-bottom: 1px solid #1c1c1c;
 }
 .feedbackBlock table tr td{
     padding: 8px 8px 0px 0px;
 }
 .feedbackPadding{
+    font-size: 0px;
     padding: 40px 15px 0px 30px;
+}
+.socialBlock .feedbackPadding{
+    padding-bottom: 20px;
+}
+
+.marginTop{
+    margin-top: 3px;
+}
+.iconDiv{
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+}
+.iconPadding{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.marginLeft{
+    margin-left: 3px;
 }
 .paddingLeft{
     padding-left: 5px;
 }
 .socialBlock{
-    height: 120px;
     background-color: #242424;
 }
 .glyphicon-chevron-right{
  background-color: #7d7d7d;
 }
+.noWrap{
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.divWidth{
+    width: 250px
+}
+.feedbackBlock img:hover{
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+}
+.socialBlock img:hover{
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+}
 .searchField{
-    height: 35px;
+    vertical-align: bottom;
+    display: inline-block;
+    height: 30px;
     background-color: #2e2e2e;
     color: #626262;
     border: none;
     font-family: AllerItalic;
     font-size: 12px;
-    width: 90%;
+    width: 85%;
+}
+.shoesPullBlock a:hover{
+    text-decoration: none;
+}
+.shoesPullBlock .fontColor:hover{
+color: #57c5a0;
+    transition: all 0.3s ease-in-out;
 }
 .copyrightBlock{
     background-color: #2e2e2e;
-    height: 90px;
 }
 .copyrightFontColor{
     padding-top:36px;
