@@ -4186,6 +4186,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs-justified {
   border-bottom: 0;
 }
+.nav-justified > li{
+  background-color: #2e2e2e;
+}
 .nav-tabs-justified > li > a {
   margin-right: 0;
   border-radius: 4px;
@@ -6287,6 +6290,7 @@ button.close {
 }
 .carousel {
   position: relative;
+  background-color: #2e2e2e;
 }
 .carousel-inner {
   position: relative;

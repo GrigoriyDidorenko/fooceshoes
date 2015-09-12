@@ -65,7 +65,6 @@ width: 67%;
 }
 .menuBlock{
     background-color: #ffffff;
-    height: 50px;
 }
 .navbar-right{
     border-left: 1px solid #cccccc;
@@ -152,6 +151,7 @@ h4{
 }
 .navbar-default{
     border: none;
+    margin-bottom: 0;
 }
 .navbar-nav > li > a{
     border-right: 1px solid #eeeeee;
@@ -166,10 +166,9 @@ h4{
 .leftBorderBold {
     border-left: 1px solid #cccccc;
 }
-@media (min-width: 1024px){
+@media (min-width: 992px){
     .navbar{
         border-radius: 0px;
-        height: 60px;
         background-color: transparent;
     }
 }
@@ -255,7 +254,9 @@ color: #242424;
 }
 .maxWidth{
     width: 100%;
+    height: 58px;
 }
+
 .whiteColor{
     text-align: center;
     color: #ffffff;
@@ -267,7 +268,7 @@ color: #242424;
     padding-top: 35%;
 }
 .paddingTop{
-    padding-top: 30px;
+ padding: 20px 5px 10px 5px;
 }
 .imageBlock .priceDateBackground{
     height: 65px;
@@ -285,8 +286,6 @@ color: #242424;
     float: left;
     top:0;
     background-color: #57c5a0;
-    height: 35px;
-    width: 35px;
     margin-right: 10px;
 }
 .dateFont{
@@ -393,6 +392,10 @@ color: #242424;
     h2{
         font-size: 24px;
     }
+    .mainDiv{
+        left: 2%;
+        width: 300px;
+    }
 }
 .navbar-default .navbar-nav > li > a:hover{
     color: #57c5a0;
@@ -459,6 +462,40 @@ color: #242424;
     font-size: 13px;
     color: #ffffff;
     padding-left: 2%;
+}
+.carousel .item{
+    height: 460px;
+}
+#myCarousel .nav a small
+{
+    display: block;
+}
+#myCarousel .nav
+{
+    background: #eee;
+}
+.nav-justified > li > a
+{
+    border-radius: 0px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+.nav-pills>li[data-slide-to].active a {
+    background-color: #16a085;
+}
+.nav-pills>li[data-slide-to] a {
+    background-color: #2e2e2e;
+}
+.nav-pills>li[data-slide-to] a:hover {
+    background-color: transparent;
+}
+.item img {
+    height: 100% !important;
+    width:  100% !important;
+    min-height: 300px;
 }
 .smallPadding{
     padding-left: 10%;
@@ -554,8 +591,11 @@ color: #242424;
     overflow-y: hidden;
     white-space: nowrap;
 }
+.socialBlock .divWidth{
+    width: 235px;
+}
 .divWidth{
-    width: 250px
+    width: 250px;
 }
 .feedbackBlock img:hover{
     opacity: 0.5;
@@ -586,6 +626,12 @@ color: #57c5a0;
 @media (max-width: 992px){
     .copyrightBlock p{
        text-align: center;
+    }
+    .nav-justified{
+        display: none;
+    }
+    .navbar-right{
+        border: none;
     }
 }
 .copyrightBlock p{
