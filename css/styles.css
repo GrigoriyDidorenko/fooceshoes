@@ -81,7 +81,7 @@ width: 67%;
     text-align: center;
 }
 .additionalPadding{
-    padding-top: 5px;
+    padding-top: 2px;
 }
 .rightAlign{
  text-align: right;
@@ -106,7 +106,7 @@ h1{
     font-family: Aller;
     color: #57c5a0;
     margin: 0px;
-    padding: 5px 0px 0px 0px;
+    padding: 8px 0px 0px 0px;
 }
 h2{
     font-family: AllerLight;
@@ -256,7 +256,6 @@ color: #242424;
     width: 100%;
     height: 58px;
 }
-
 .whiteColor{
     text-align: center;
     color: #ffffff;
@@ -282,6 +281,10 @@ color: #242424;
     height: 300px;
     width: 390px;
 }
+.newsBlock .priceDateBackground{
+    height: 35px;
+    width: 35px;
+}
 .priceDateBackground{
     float: left;
     top:0;
@@ -296,6 +299,9 @@ color: #242424;
     text-align: center;
     line-height: 110%;
 }
+.socialBlock .fontSize{
+    font-size: 0px;
+}
 .fontSize{
     font-size: 13px;
 }
@@ -303,7 +309,8 @@ color: #242424;
     font-family: AllerBold;
     font-size: 14px;
    background-color: #dfdbd4;
-    padding: 35px 15px 0px 15px;
+    padding: 35px 15px 3px 15px;
+    margin-bottom: 10px;
 }
 .buttonStyle{
     background-color: transparent;
@@ -396,6 +403,12 @@ color: #242424;
         left: 2%;
         width: 300px;
     }
+    .socialBlock .rightFloat{
+        float: left;
+    }
+    .socialBlock .fontSize{
+        padding: 0 15px 20px 30px;
+    }
 }
 .navbar-default .navbar-nav > li > a:hover{
     color: #57c5a0;
@@ -424,9 +437,15 @@ color: #242424;
         font-size: 25px;
     }
 }
+.scrollingItem{
+    width: 100%;
+    height: 5px;
+    background-color: transparent;
+}
 .textStyle{
     position: relative;
     top: -120px;
+    margin-bottom: -60px;
     padding: 15px 30px;
     background: rgba(36, 36, 36, 0.85);
     color: #ffffff;
@@ -483,8 +502,18 @@ color: #242424;
     width: 70%;
     margin: auto;
 }
-.nav-pills>li[data-slide-to].active a {
+.nav-pills>li[data-slide-to].active a div {
     background-color: #16a085;
+}
+.nav-pills>li[data-slide-to].active a {
+    background-color: transparent;
+}
+.carousel span{
+    opacity: 0.5;
+}
+.nav-pills>li[data-slide-to].active a span {
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
 }
 .nav-pills>li[data-slide-to] a {
     background-color: #2e2e2e;
@@ -556,11 +585,8 @@ color: #242424;
 }
 .socialBlock .feedbackPadding{
     padding-top: 0;
-}
-.socialBlock .feedbackPadding{
     padding-bottom: 20px;
 }
-
 .marginTop{
     margin-top: 3px;
 }
@@ -582,6 +608,7 @@ color: #242424;
 .socialBlock{
     background-color: #242424;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .glyphicon-chevron-right{
  background-color: #7d7d7d;
